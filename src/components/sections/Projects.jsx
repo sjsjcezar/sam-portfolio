@@ -61,7 +61,7 @@ export const Projects = () => {
 
                     </div>
                     <div className="flex justify-between items-center">
-                    <a href="https://github.com/sjsjcezar/Vote-Me-Not" className="text-gray-500 hover:underline transition-colors hover:text-blue-500 my-4">
+                    <a href="https://github.com/sjsjcezar/TikTik-GameDev2" className="text-gray-500 hover:underline transition-colors hover:text-blue-500 my-4">
                        - View Project -
                     </a>
                     </div>
@@ -119,7 +119,7 @@ export const Projects = () => {
 
                     </div>
                     <div className="flex justify-between items-center">
-                    <a href="https://github.com/sjsjcezar/MathWarriors" className="text-gray-500 hover:underline transition-colors hover:text-blue-500 my-4">
+                    <a href="https://github.com/sjsjcezar/Vote-Me-Not" className="text-gray-500 hover:underline transition-colors hover:text-blue-500 my-4">
                        - View Project -
                     </a>
                     </div>
