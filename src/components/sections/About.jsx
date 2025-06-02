@@ -30,12 +30,13 @@ export const About = () => {
 
                 <div className="glass rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
                     <p className="text-gray-300 mb-8">
-                        I am a passionate game developer with expertise in C# and Unity.
+                    I’m a Computer Science student with a broad tech stack—but my real passion is Unity game development. I leverage my CS foundation to write clean C# code, build 2D/3D prototypes, optimize performance, and create scalable, engaging experiences. 
+                    I also create 2D art, play instruments, and write stories.
                     </p>
                     
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                            <h3 className="text-xl font-bold mb-4">Frontend</h3>
+                            <h3 className="text-xl font-bold mb-4">Frontend Skills</h3>
                             <div className="flex flex-wrap gap-2">
                                 {frontendSkills.map((tech, key) => (
                                     <span 
@@ -48,10 +49,9 @@ export const About = () => {
                                 ))}
                             </div>
                         </div>
-
-
+                                
                         <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                            <h3 className="text-xl font-bold mb-4">Backend</h3>
+                            <h3 className="text-xl font-bold mb-4">Backend Skills</h3>
                             <div className="flex flex-wrap gap-2">
                                 {backendSkills.map((tech, key) => (
                                     <span 
@@ -68,75 +68,61 @@ export const About = () => {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-                                <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">  
-                                    <h3 className="text-xl font-bold mb-4">Education</h3>
-                                    <ul className="list-disc list-inside text-gray-300 space-y-2">
-                                        <li>
-                                            <strong> Bachelor of Science in Computer Science </strong> - Ateneo de Naga University 
-                                                (2022-Ongoing)
-                                        </li>
-                                    </ul>
-                                </div>
+                    <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">  
+                        <h3 className="text-xl font-bold mb-4">Education</h3>
+                        <ul className="list-disc list-inside text-gray-300 space-y-2">
+                            <li>
+                                <strong>Bachelor of Science in Computer Science</strong> - Ateneo de Naga University 
+                                (2022–Ongoing)
+                            </li>
+                        </ul>
+                    </div>
 
-                                <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">  
-                                    <h3 className="text-xl font-bold mb-4"> Game Development Experience</h3>
-                                    <div className="space-y-4 text-gray-300">
-                                        <div>
-                                            <h4 className="font-semibold"> Solo Indie Game Developer</h4>
-                                            <p>
-                                                Developed 2D and 3D Games using Unity in my free time.
-                                            </p>
-                                        </div>  
+                    <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">  
+                        <h3 className="text-xl font-bold mb-4">Game Development Experience</h3>
+                        <div className="space-y-4 text-gray-300">
+                            <div>
+                                <h4 className="font-semibold text-yellow-500">Lead Developer <strong className="text-white">of Friedrich</strong></h4>
+                                <p>
+                                    Handled <strong className="text-red-500">95%</strong> of the entire game logic and development process.
+                                </p>
+                            </div>
 
-                                        <div>
-                                            <h4 className="font-semibold"> Lead Developer and Solo 2D Artist of Friedrich </h4>
-                                            <p>
-                                                A student-led indie RPG created as part of my final coursework. 
-                                                It features a 2D turn-based combat system inspired by classic JRPGs.
-                                                
-                                            </p>
-                                        </div>
+                            <div>
+                                <h4 className="font-semibold text-yellow-500">Solo Developer <strong className="text-white">&</strong> <strong className="text-purple-500">2D Artist</strong> 
+                                <strong className="text-white"> of Math Warriors</strong></h4>
+                                <p>
+                                    Currently working on a turn-based strategy game from scratch (mechanics and art), where players solve order-of-operations math problems to advance.
+                                </p>
+                            </div>
 
-                                        <div>
-                                            <h4 className="font-semibold"> Solo Developer and Solo 2D Artist of Math Warriors </h4>
-                                            <p>
-                                                Currently working on Math Warriors, a BEED Thesis Project about a 2D turn-based strategy game where players 
-                                                solve math the order of operation math problems to progress through levels.
-                                            </p>
-                                        </div>  
+                            <div>
+                                <h4 className="font-semibold text-yellow-500">Lead Developer <strong className="text-white">&</strong> <strong className="text-purple-500">2D Artist</strong> of <strong className="text-white">TikTik</strong></h4>
+                                <p>
+                                    Spearheaded core features—game logic, UI, and mechanics—for a horror title inspired by “No, I’m Not a Human” as part of a 2D Game Development class.
+                                </p>
+                            </div>
 
-                                        <div>
-                                            <h4 className="font-semibold">Solo Developer of TikTik </h4>
-                                            <p>
-                                                TikTik is 2D Horror Game inspired by the game <strong> "No, I'm not a Human" </strong> 
-                                                where players choose to let in a human or an entity into their house.
-                                            </p>
-                                        </div>
+                            <div>
+                                <h4 className="font-semibold text-yellow-500">Solo Developer <strong className="text-white">&</strong> <strong className="text-purple-500">2D Artist</strong> 
+                                <strong className="text-white"> of Vote Me Not (Demo)</strong></h4>
+                                <p>
+                                    Created a satirical 2D political game solo—designing core gameplay, UI, and art—where players choose moral arbiter roles to select candidates.
+                                </p>
+                            </div>
 
-                                        <div>
-                                            <h4 className="font-semibold">Solo Developer and 2D Artist of Vote Me Not [Demo] </h4>
-                                            <p>
-                                                Vote Me Not is a 2D Satirical Political Game where players assumes the role of a moral arbiter choose which politicians to run for office. 
-                                            </p>
-                                        </div>
-
-                                        <div>
-                                            <h4 className="font-semibold"> Lead Programmer of Insurekyson </h4>
-                                            <p>
-                                                Insureksyon is a Filipino-inspired, Warcraft-like 3D steampunk real-time strategy game where players
-                                                build bases, gather resources, expand their armies, and
-                                                defeat enemies across a three-part story campaign.
-                                            </p>
-                                        </div>
-
-                                    </div>
-                                </div>
+                            <div>
+                                <h4 className="font-semibold text-yellow-500">Lead Programmer <strong className="text-white">of</strong> <strong className="text-white">Insurekyson</strong></h4>
+                                <p>
+                                    Navmesh, AI base-building, quest/dialogue systems, minimap with fog of war, and polished UI—overseeing most core RTS features in this 3D steampunk strategy game.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
-
         </section>
-
         </RevealOnScroll>
     );
 };

@@ -16,7 +16,8 @@ export const Projects = () => {
                     </h3>
 
                     <p className="text-gray-300 mb-4">
-                        Friedrich is a student-led indie RPG created as part of my final coursework. It features a 2D turn-based combat system inspired by classic JRPGs.
+                    Friedrich is a 2D turn-based RPG where players embark on an epic journey to explore the world of Altus, battle formidable enemies, and complete quests. 
+                    You take on the role of a hero, mysteriously transported to this realm, tasked with saving it from the scourge of the Demon Lord that threatens to consume the land.
                     </p>
 
                     <div>
@@ -33,7 +34,7 @@ export const Projects = () => {
                     </div>
                     <div className="flex justify-between items-center">
                     <a href="https://github.com/sjsjcezar/Friedrich-SE2" className="text-gray-500 hover:underline transition-colors hover:text-blue-500 my-4">
-                       - View Project -
+                       - Under Development -
                     </a>
                     </div>
                 </div>
@@ -44,7 +45,7 @@ export const Projects = () => {
                     </h3>
 
                     <p className="text-gray-300 mb-4">
-                        TikTik is a 2D Horror Game inspired by the game <strong> "No, I'm not a Human" </strong> 
+                        TikTik is a 2D Filipino Horror Game inspired by the game <strong> "No, I'm not a Human" </strong> 
                         where players choose to let in a human or an entity into their house.
                     </p>
 
@@ -61,7 +62,7 @@ export const Projects = () => {
 
                     </div>
                     <div className="flex justify-between items-center">
-                    <a href="https://github.com/sjsjcezar/TikTik-GameDev2" className="text-gray-500 hover:underline transition-colors hover:text-blue-500 my-4">
+                    <a href="https://github.com/sjsjcezar/TikTik-GameDev2" className="text-blue-500 hover:underline transition-colors hover:text-blue-500 my-4">
                        - View Project -
                     </a>
                     </div>
@@ -73,8 +74,8 @@ export const Projects = () => {
                     </h3>
 
                     <p className="text-gray-300 mb-4">
-                        Math Warriors is a BEED Thesis Project about a 2D turn-based strategy game where players 
-                        solve math the order of operation math problems to progress through levels.
+                        Math Warriors is a BEED Thesis Project about a 2D Turn-Based Strategy Mobile Game where players 
+                        solve math problems <strong>(the order of operations)</strong> to progress through three levels.
                     </p>
 
                     <div>
@@ -91,7 +92,7 @@ export const Projects = () => {
                     </div>
                     <div className="flex justify-between items-center">
                     <a href="https://github.com/sjsjcezar/PemdasPrototype" className="text-gray-500 hover:underline transition-colors hover:text-blue-500 my-4">
-                       - View Project -
+                       - Under Development -
                     </a>
                     </div>
                 </div>
@@ -102,8 +103,8 @@ export const Projects = () => {
                     </h3>
 
                     <p className="text-gray-300 mb-4">
-                        Vote Me Not! is a 2D Satirical Political Game where players assumes the role of a moral arbiter choose which politicians to run for office. 
-                        The game features a unique voting system where players can vote for politicians based on their policies and character traits.
+                        Vote Me Not! is a 2D Satirical Political Mobile Game where players assumes the role of a moral arbiter and choose which politicians to run for office. 
+        
                     </p>
 
                     <div>
@@ -119,7 +120,7 @@ export const Projects = () => {
 
                     </div>
                     <div className="flex justify-between items-center">
-                    <a href="https://github.com/sjsjcezar/Vote-Me-Not" className="text-gray-500 hover:underline transition-colors hover:text-blue-500 my-4">
+                    <a href="https://github.com/sjsjcezar/Vote-Me-Not" className="text-blue-500 hover:underline transition-colors hover:text-blue-500 my-4">
                        - View Project -
                     </a>
                     </div>
@@ -150,7 +151,7 @@ export const Projects = () => {
 
                     </div>
                     <div className="flex justify-between items-center">
-                    <a href="https://dacagames.itch.io/insureksyon" className="text-gray-500 hover:underline transition-colors hover:text-blue-500 my-4">
+                    <a href="https://dacagames.itch.io/insureksyon" className="text-blue-500 hover:underline transition-colors hover:text-blue-500 my-4">
                        - View Project -
                     </a>
                     </div>

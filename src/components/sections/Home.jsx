@@ -1,3 +1,4 @@
+// src/components/sections/Home.jsx
 import React from 'react';
 import { RevealOnScroll } from '../RevealOnScroll';
 
@@ -10,12 +11,14 @@ export const Home = () => {
 
             <RevealOnScroll>
             <div className="text-center z-10 max-w-4xl mx-auto">
-                <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
-                    Hello, I'm Sam!
+                <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-200 to-purple-300 bg-clip-text text-transparent">
+                    Hello, I'm Samuel Joseph Cezar!
                 </h1>
 
                 <p className="text-gray-400 text-lg md:text-xl mb-8 max-w-lg mx-auto">
-                    A Computer Science student and an Indie Game Developer with experience on creating 2D and 3D games in Unity.
+                    I am an 
+                    <strong className="text-blue-500/100"> indie game developer</strong> specializing in Unity 2D/3D experiences. 
+            
                 </p>
 
                 <div className="flex flex-col sm:flex-row justify-center gap-4">
